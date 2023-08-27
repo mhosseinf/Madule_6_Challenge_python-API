@@ -55,10 +55,20 @@ Requirement 2: Compute Linear Regression for Each Relationship-After each pair o
 # The relationship between cloudiness and latitude appears weak in the Northern and Southern Hemispheres, as indicated by the low R-values.
 # The positive slopes of the regression lines suggest that there's a tendency for cloudiness to increase with increasing latitude, but the magnitude of the effect is small.
 # Various complex atmospheric and meteorological factors influence cloudiness, including local weather patterns, wind patterns, and geographical features. These factors might contribute to the weak relationships observed here.
-# In summary, the weak relationships between cloudiness and latitude in both hemispheres and the low R-values indicate that latitude alone might not be a strong predictor of cloudiness. Other factors likely play a significant role 
+# In summary, the weak relationships between cloudiness and latitude in both hemispheres and the low R-values indicate that latitude alone might not strongly predict cloudiness. Other factors likely play a significant role 
 # in determining cloudiness levels in a given location. Further investigation and consideration of additional variables could provide more insights.
 
 
+#4-Wind Speed(m/s) vs. Latitude
 
+# 4-1) The relation between Northern Hemisphere city Cloudiness (%) vs. Latitude is: y = -0.01x + 3.87 (rvalue = -0.06)
 
+# 4-2) The relation between Southern Hemisphere city Cloudiness (%) vs. Latitude is: y = -0.03x + 3.58 (rvalue = -0.15)
+# The relationships between wind speed and latitude in both hemispheres are weak, as indicated by the low r-values.
+# The negative slopes in both cases suggest that wind speed decreases as you move away from the equator, regardless of hemisphere.
+# While latitude does play a role in wind speed patterns, it is not the sole determinant. Local topography, weather systems, ocean currents, and 
+# atmospheric conditions all contribute to the variability in wind speed.
+# In summary, while there is a negative trend between wind speed and latitude, the weak correlations suggest that latitude is not a strong 
+# predictor of wind speed. Many complex factors influence wind speed, and further investigation into local meteorological conditions 
+# is necessary to fully understand wind speed patterns.
 
