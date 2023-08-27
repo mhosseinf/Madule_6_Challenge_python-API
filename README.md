@@ -16,13 +16,49 @@
 
 Requirement 2: Compute Linear Regression for Each Relationship-After each pair of plots, explain what the linear regression is modelling. Describe any relationships that you notice and any other findings you may uncover.
 
-1-Temperature vs. Latitude
+#1-Temperature vs. Latitude
 
-1-1) The relation between Northern Hemisphere city max Temperature (C) vs. Latitude is: y = -0.29x + 33.96 (rvalue = -0.68)
-The negative correlation in the Northern Hemisphere means that you will likely encounter cooler temperatures as you move farther away from the equator (higher latitudes).
+# 1-1) The relation between Northern Hemisphere city max Temperature (C) vs. Latitude is: y = -0.29x + 33.96 (rvalue = -0.68)
+# The negative correlation in the Northern Hemisphere means that you will likely encounter cooler temperatures as you move farther away from the equator (higher latitudes).
 
-1-2) The relation between Southern Hemisphere city max Temperature (C) vs. Latitude is: y = 0.56x + 31.26 (rvalue = 0.84)
-The positive correlation in the Southern Hemisphere indicates that temperatures tend to become warmer as you move closer to the equator (lower latitudes)
+# 1-2) The relation between Southern Hemisphere city max Temperature (C) vs. Latitude is: y = 0.56x + 31.26 (rvalue = 0.84)
+# The positive correlation in the Southern Hemisphere indicates that temperatures tend to become warmer as you move closer to the equator (lower latitudes)
 
 
-An r value of -0.68 and 0.84 indicates moderate and strong correlations, respectively. A value closer to -1 or 1 indicates a stronger linear relationship. however, the models are also based on random city data analysis and may not predict exact temperature values in every scenario. They offer a simplified representation of the general trend between latitude and temperature.
+# An r value of -0.68 and 0.84 indicates moderate and strong correlations, respectively. A value closer to -1 or 1 indicates a stronger linear relationship. 
+# However, the models are also based on random city data analysis and may not predict exact temperature values in every scenario. They offer a simplified 
+# representation of the general trend between latitude and temperature.
+
+
+
+#2-Humidity vs. Latitude
+
+# 2-1) The relation between Northern Hemisphere city Humidity (%) vs. Latitude is: y = 0.11x + 65 (rvalue = 0.08)
+
+# 2-2) The relation between Southern Hemisphere city Humidity (%) vs. Latitude is: y = -0.07x + 62.97 (rvalue = -0.04)
+
+# Both in the Northern and Southern Hemispheres, the relationship between humidity and latitude appears very weak based on the low r-values.
+# While you've observed some relationships between humidity and latitude, the low R-values and small slopes suggest 
+# that latitude might not be a significant predictor of humidity on its own.
+# Other variables are likely at play, and further analysis or consideration of additional factors could provide more insights.
+# This means that latitude alone is not a strong predictor of humidity.
+# The slopes of the regression lines are very close to zero, 
+# which reinforces the idea that the changes in humidity are relatively minor as latitude changes
+
+
+
+#3-Cloudiness vs. Latitude
+
+# 3-1) The relation between Northern Hemisphere city Cloudiness (%) vs. Latitude is: y = 0.21x + 51.63 (rvalue = 0.11)
+
+# 3-2) The relation between Southern Hemisphere city Cloudiness (%) vs. Latitude is: y = 0.04x + 48.24 (rvalue = 0.01)
+# The relationship between cloudiness and latitude appears weak in the Northern and Southern Hemispheres, as indicated by the low R-values.
+# The positive slopes of the regression lines suggest that there's a tendency for cloudiness to increase with increasing latitude, but the magnitude of the effect is small.
+# Various complex atmospheric and meteorological factors influence cloudiness, including local weather patterns, wind patterns, and geographical features. These factors might contribute to the weak relationships observed here.
+# In summary, the weak relationships between cloudiness and latitude in both hemispheres and the low R-values indicate that latitude alone might not be a strong predictor of cloudiness. Other factors likely play a significant role 
+# in determining cloudiness levels in a given location. Further investigation and consideration of additional variables could provide more insights.
+
+
+
+
+
